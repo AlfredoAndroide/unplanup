@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, Sans-serif;
+    color: #424242;
+}
+
+ul { 
+  list-style: none;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #424242;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+/*Cabecera con logo*/
+header {
+  background: #fff; 
+}
+
+header .container .row {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.nav-brand {
+  width: 210px;
+}
+
+ /*Barra de navegación*/
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    background: #fff;
+    border-top: 1px solid #eeeeee;
+}
+
+.nav-main ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    list-style: none; 
+}
+
+.nav-main ul li {
+  padding: 10px;
+  background: #fff
+}
+
+.nav-main ul li a {
+  text-decoration: none;
+  padding: 2px;
+  color: #000;
+}
+
+.nav-main ul li:hover,
+.nav-main ul li a:hover {
+  text-decoration: none;
+  background: #a995c5;
+}
+
+.nav-main ul {
+  text-align: right;
+}
+
+/* Pantalla Principal */
+.principal {
+  width: 100%;
+  height: auto;
+  background: #e1bee7;
+  background: -webkit-linear-gradient(to right, hsla(297, 62%, 57%, 0.459), hsla(282, 33%, 46%, 0.664)), url(../img/portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(297, 62%, 57%, 0.459), hsla(282, 33%, 46%, 0.664)), url(../img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 30px 30px;
+}
+ 
+.principal .textos {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.principal .textos h2 {
+  font-size: 27px;
+  font-weight: 700; 
+}
+
+.principal .textos .fotillo {
+  display: block;   
+  border-radius: 50%;
+  height: 280px;
+  border: 5px solid #a995c5;
+}
+
+/* Promociones */
+main .precios {
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; 
+  padding: 50px;
+  }
+  main .precios .titulo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 50px; }
+  main .precios .segundaLinea { 
+    text-align: center;
+    margin-bottom: 70px;
+   }
+   main .precios .segundaLinea h2 {
+    font-size: 27px;
+    font-weight: 700;}
+  main .precios .col-sm-4 {
+    width: 40%;
+    height: 100%
+  }
+  main .precios .plan {
+    background: #fff;
+    text-align: center;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    main .precios .plan .nombre {
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 30px; }
+    main .precios .plan .precio {
+      font-weight: 300;
+      font-size: 48px;
+      margin-bottom: 30px; 
+    }
+    main .precios .plan .tipo {
+    font-weight: 650;
+      margin: 20px 0;
+      font-size: 20px; }
+    main .precios .container .caja {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-flow: wrap;
+      height: auto;
+    }
+    main .precios .plan .caracteristicas {
+      list-style: none;
+      padding: 0 20px; }
+      main .precios .plan .caracteristicas li {
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 1px solid #dedede; }
+    main .precios .plan .btn {
+      width: 70%;
+      font-size: 16px;
+      padding: 15px 0;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100px; }
+    main .precios .plan.verde .nombre,
+    main .precios .plan.verde .precio {
+      color: #86b773; }
+    main .precios .plan.active {
+      background: #0288d1;
+      color: #fff; }
+    main .precios .plan.naranja .nombre,
+    main .precios .plan.naranja .precio {
+      color: #ddb146; }
+main .metodo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 70px;
+}
+
+main .transfe {
+  display: flex;
+  justify-content:center;
+  margin-top: 10px;
+}
+
+main .transfe a {
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0;
+  border-radius: 3px;
+  font-size: 40px;
+  margin: 0 20px;
+}
+
+/* Footer */
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #a995c5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+footer{
+    background: #414141;
+    padding-top: 30px;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer .redes-sociales {
+  padding: 20px 0;
+}
+
+footer .redes-sociales .container {
+  display: flex;
+  justify-content:center;
+}
+
+footer .redes-sociales a {
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0;
+  border-radius: 3px;
+  font-size: 30px;
+  margin: 0 20px;
+}
+
+footer .redes-sociales .twitter:hover { background: #1da1f2; }
+footer .redes-sociales .facebook:hover { background: #3b5998; }
+footer .redes-sociales .instagram:hover { background: #3f729b; }
+
+.copyright {
+  background: #353535;
+  width: 100%;
+  display: flex;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.copyright .izquierda {
+  width: 50%;
+  text-align: left;
+}
+
+.copyright .derecha {
+  width: 50%;
+  text-align: right;
+}
+
+.copyright .programame {
+  text-decoration: none;
+  color: #a995c5;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+/* Media Queries */
+@media screen and (max-width:900px){
+    .principal{
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:800px){
+    .nav-main {
+        font-size: 17px;
+    }
+
+    .nav-brand {
+      width: 190px;
+    }
+
+    .principal .textos .col-md-12 h2 {
+      font-size: 25px;
+    }
+
+    .principal .textos .fotillo {
+      height: 260px;
+    }
+
+    main .precios .segundaLinea h2{
+      font-size: 25px;
+    }
+
+    main .precios .row .metodo h2{
+      font-size: 25px;
+    }
+
+    main .caja .precio .plan .tipo {
+      font-size: 18px;
+    }
+
+    main .caja .precio .plan .caracteristicas li {
+      font-size: 16px;
+    }
+
+    footer .content-foo p {
+      font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .copyright {
+      display: inline-block;
+    }
+
+    .copyright .derecha {
+      text-align: center;
+      width: 100%;
+    }
+
+    .copyright .izquierda {
+      text-align: center;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .nav-main {
+        font-size: 16px;
+    }
+
+    .nav-brand {
+      width: 170px;
+    }
+
+    .principal .textos {
+      display: inline;
+      align-items: center;
+      text-align: center;
+    }
+
+    .principal .textos .col-md-12 h2 {
+        font-size: 25px;
+    }
+
+    .principal .textos .fotillo {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        height: 250px;
+    }
+
+    main .precios .segundaLinea h2{
+      font-size: 25px;
+    }
+
+    main .precios .container .caja {
+      display: inline;
+    }
+
+    main .precios .col-sm-4 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    main .precios .row .metodo h2{
+      font-size: 25px;
+    }
+
+    footer .content-foo p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    footer .contenedor-footer {
+      display: inline;
+    }
+
+    footer .contenedor-footer .content-foo {
+      padding: 10px 20px;
+    }
+}
