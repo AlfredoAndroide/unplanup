@@ -28,6 +28,28 @@ ul {
     margin-bottom: 60px;
 }
 
+.btn-whatsapp {
+        display:block;
+        align-items: center;
+        width:60px;
+        height:60px;
+        background: #a995c5;
+        position: fixed;
+        left:20px;
+        bottom:20px;
+        border-radius:50%;
+        text-align: center;
+        z-index:999;
+}
+
+.btn-whatsapp i {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 25%;
+}
+
 /* Header */
 /*Cabecera con logo*/
 header {
@@ -109,7 +131,7 @@ header .container .row {
 }
 
 .principal .textos h2 {
-  font-size: 27px;
+  font-size: 30px;
   font-weight: 700; 
 }
 
@@ -202,9 +224,9 @@ footer .redes-sociales a {
   margin: 0 20px;
 }
 
-footer .redes-sociales .twitter:hover { background: #1da1f2; }
-footer .redes-sociales .facebook:hover { background: #3b5998; }
-footer .redes-sociales .instagram:hover { background: #3f729b; }
+footer .redes-sociales .twitter:hover { background: #a995c5; }
+footer .redes-sociales .facebook:hover { background: #a995c5; }
+footer .redes-sociales .instagram:hover { background: #a995c5; }
 
 .copyright {
   background: #353535;

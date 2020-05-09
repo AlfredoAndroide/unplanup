@@ -28,20 +28,60 @@ ul {
     margin-bottom: 60px;
 }
 
+.btn-whatsapp {
+        display:block;
+        align-items: center;
+        width:60px;
+        height:60px;
+        background: #a995c5;
+        position: fixed;
+        left:20px;
+        bottom:20px;
+        border-radius:50%;
+        text-align: center;
+        z-index:999;
+}
+
+.btn-whatsapp i {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 25%;
+}
 /* Header */
 /*Cabecera con logo*/
 header {
   background: #fff; 
 }
 
+header .container {
+  position: relative;
+}
+
 header .container .row {
   display: flex;
   justify-content: center;
-  margin: 10px;
+}
+
+header .header-contact { 
+  position: absolute; 
+  display: inline;
+  text-align: center;
+  margin-right: 50px;
+  top: -5px; 
+  right: 0; 
+  border-bottom:2px solid #a995c5; 
+  border-left:2px solid #a995c5; 
+  border-right:2px solid #a995c5; 
+  padding:10px 15px 10px; 
+  box-shadow: 3px 3px 0 #a995c5; 
+  font-size: 14px;
 }
 
 .nav-brand {
   width: 210px;
+  margin: 10px;
 }
 
  /*Barra de navegación*/
@@ -112,8 +152,8 @@ header .container .row {
 }
 
 .textos-header h2 {
-    font-size: 27px;
-    list-style: 27px;
+    font-size: 30px;
+    list-style: 30px;
     margin-bottom: 30px;
     font-weight: 700;
 }
@@ -236,7 +276,7 @@ main .galeria .fotillos img:hover {
 /* Ubi */
 main .ubicacion {
   background: #f2f2f2;
-  padding: 50px 50px;
+  padding: 65px 65px;
   overflow: hidden;
 }
 
@@ -251,13 +291,13 @@ main .ubicacion .ubi {
 
 main .ubicacion .direccion {
   float: left;
-  width: 50%;
+  width: 80%;
   text-align: left;
 }
 
 main .ubicacion .horarios {
   float: right;
-  width: 50%;
+  width: 20%;
   text-align: right;
   overflow: hidden;
 }
@@ -272,10 +312,8 @@ main .ubicacion .horarios h4 {
   font-weight: 600;
 }
 
-main .ubicacion .horarios .entre-semana,
-main .ubicacion .horarios .fin-semana {
-  width: 50%;
-  float: left;
+main .ubicacion .horarios .entre-semana {
+  width: 100%;
   text-align: center;
 }
 
@@ -306,9 +344,9 @@ footer .redes-sociales a {
   margin: 0 20px;
 }
 
-footer .redes-sociales .twitter:hover { background: #1da1f2; }
-footer .redes-sociales .facebook:hover { background: #3b5998; }
-footer .redes-sociales .instagram:hover { background: #3f729b; }
+footer .redes-sociales .twitter:hover { background: #a995c5; }
+footer .redes-sociales .facebook:hover { background: #a995c5; }
+footer .redes-sociales .instagram:hover { background: #a995c5; }
 
 .copyright {
   background: #353535;
