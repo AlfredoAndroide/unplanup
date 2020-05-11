@@ -31,23 +31,23 @@ ul {
 .btn-whatsapp {
         display:block;
         align-items: center;
-        width:60px;
-        height:60px;
+        width:70px;
+        height:70px;
         background: #a995c5;
         position: fixed;
-        left:20px;
-        bottom:20px;
+        right:30px;
+        bottom:30px;
         border-radius:50%;
         text-align: center;
         z-index:999;
 }
 
-.btn-whatsapp i {
+.btn-whatsapp img {
   color: #fff;
-  text-align: center;
-  font-size: 30px;
+  width: 50px;
   position: relative;
-  top: 25%;
+  top: 13%;
+  right: -2%;
 }
 /* Header */
 /*Cabecera con logo*/
@@ -152,7 +152,7 @@ header .header-contact {
 }
 
 .textos-header h2 {
-    font-size: 30px;
+    font-size: 40px;
     list-style: 30px;
     margin-bottom: 30px;
     font-weight: 700;
